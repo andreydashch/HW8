@@ -1,4 +1,4 @@
-package simplecillections.arraylist;
+package simplecollections.arraylist;
 
 import java.util.Iterator;
 
