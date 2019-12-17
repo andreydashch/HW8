@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class ArrayIterator<E> implements Iterator<E> {
     private int index = 0;
-    E[] values;
+    private E[] values;
 
     public ArrayIterator(E[] values) {
         this.values = values;
@@ -17,9 +17,4 @@ public class ArrayIterator<E> implements Iterator<E> {
     public E next() {
         return values[index++];
     }
-
-    public void remove() {
-        // Noting
-    }
-
 }
