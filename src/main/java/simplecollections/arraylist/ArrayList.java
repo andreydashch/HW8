@@ -1,14 +1,12 @@
 package simplecollections.arraylist;
 
-import simplecollections.Simple;
-
 import java.util.Iterator;
 
-public class ArrayList<E> implements Simple<E> {
+public class ArrayList<E> implements SimpleArray<E> {
     private E[] values;
 
     public static void main(String[] args) {
-        Simple<String> strings = new ArrayList<>();
+        SimpleArray<String> strings = new ArrayList<>();
         strings.add("first");
         strings.add("second");
         strings.add("third");
