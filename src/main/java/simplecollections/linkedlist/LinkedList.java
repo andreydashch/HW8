@@ -2,7 +2,7 @@ package simplecollections.linkedlist;
 
 import java.util.Iterator;
 
-public class LinkedList<E> implements SimpleLinked<E>, Iterable<E>, DescendingIterator {
+public class LinkedList<E> implements SimpleLinked<E>, Iterable<E>, DescendingIterator<E> {
     private int size = 0;
     private Node<E> head;
     private Node<E> tail;
