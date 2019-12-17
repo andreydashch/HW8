@@ -1,6 +1,8 @@
 package simplecollections;
 
-public interface Simple<E> {
+import java.util.Iterator;
+
+public interface Simple<E> extends Iterator<E> {
     boolean add(E e);
     void delete(int index);
     E get(int index);
